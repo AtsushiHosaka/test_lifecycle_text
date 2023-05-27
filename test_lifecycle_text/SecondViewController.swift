@@ -15,12 +15,6 @@ class SecondViewController: UIViewController {
         print("second view")
     }
     
-//    override func viewWillAppear(_ animated: Bool) {
-//        super.viewWillAppear(animated)
-//
-//        print("second view")
-//    }
-    
     @IBAction func back() {
         dismiss(animated: true)
     }
